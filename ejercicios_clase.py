@@ -10,7 +10,7 @@ Descripcion:
 Programa creado para poner a prueba los conocimientos adquiridos durante la clase
 '''
 
-__author__ = "Inove Coding School"
+__author__ = "Coding School"
 __email__ = "henrryyanez@inove.com.ar"
 __version__ = "1.1"
 
