@@ -11,7 +11,7 @@ Programa creado para poner a prueba los conocimientos adquiridos durante la clas
 '''
 
 __author__ = "Inove Coding School"
-__email__ = "alumnos@inove.com.ar"
+__email__ = "henrryyanez@inove.com.ar"
 __version__ = "1.1"
 
 def ej1():
