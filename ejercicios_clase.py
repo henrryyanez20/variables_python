@@ -59,7 +59,7 @@ def ej2():
     numero_4 = float(input())
 
     # Alumno: Imprima en pantalla los dos números reales solicitados
-    # print(....)
+    print(" [*] Primer valor ingresado :",numero_3,"\n","[*]Segundo valor ingresado :",numero_4)
 
     # Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
     # numero_3, numero_4
@@ -67,12 +67,19 @@ def ej2():
     # El resultado de sumar 4 y 2 es 6
 
     # Suma
-
+    suma2 = numero_3 + numero_4
     # Resta
+    resta2 = numero_3 - numero_4
 
     # División
-
+    dividir2 = numero_3 / numero_4
     # Multiplicación
+    muliplicar2 = numero_3 * numero_4
+
+    print("\n El resultado de sumar",numero_3,"con",numero_4,"es:",suma2)
+    print("\n El resultado de restar",numero_3,"con",numero_4,"es:",resta2)
+    print("\n El resultado de dividir",numero_3,"con",numero_4,"es:",dividir2)
+    print("\n El resultado de multiplicar",numero_3,"con",numero_4,"es:",muliplicar2)
 
 
 def ej3():
@@ -129,7 +136,7 @@ def ej4():
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
-    ej1()
-    #ej2()
+    #ej1()
+    ej2()
     #ej3()
     #ej4()
