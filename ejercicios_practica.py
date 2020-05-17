@@ -156,9 +156,28 @@ def ej4():
     utilizarán mucho de acá en adelante. Les dejamos un link con algunos ejemplos más:
     https://www.pythonforbeginners.com/dictionary/python-split
     Cualquier duda con el método split pueden consultarla por el campus
-    
-        
+   
     '''
+    print('Ingrese NOMBRE COMPLETO de la persona 1 (Nombre Apellido):')
+    persona_1 = str(input())
+
+    print('Ingrese NOMBRE COMPLETO de la persona 2 (Nombre Apellido):')
+    persona_2 = str(input())
+
+    per_1_split = persona_1.split(" ")
+    print(per_1_split)
+
+    per_2_split = persona_2.split(" ")
+    print(per_2_split)
+
+    validador = per_1_split[1] in per_2_split[1]
+
+    if validador == True:
+      print("[*] Las personas son parientes porque tienen en común el apellio:\n",per_2_split[1])
+    else:
+      print("[!] Las personas ingresadas NO son parientes")
+
+
 
 def ej5():
     # Ejercicios de práctica con cadenas
@@ -186,5 +205,5 @@ if __name__ == '__main__':
     print("Ejercicios de práctica")
     #ej1()
     #ej2()
-    ej3()
-    #ej4()
+    #ej3()
+    ej4()
