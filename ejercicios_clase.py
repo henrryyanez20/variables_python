@@ -11,7 +11,7 @@ Programa creado para poner a prueba los conocimientos adquiridos durante la clas
 '''
 
 __author__ = "Coding School"
-__email__ = "henrryyanez@inove.com.ar"
+__email__ = "henrryyanez@"
 __version__ = "1.1"
 
 def ej1():
@@ -33,12 +33,20 @@ def ej1():
     # El resultado de sumar 4 y 2 es 6
 
     # Suma
-
+    suma = numero_1 + numero_2
     # Resta
+    resta = numero_1 - numero_2
 
     # División
-
+    dividir = numero_1 / numero_2
     # Multiplicación
+    muliplicar = numero_1 * numero_2
+
+    print("\n El resultado de sumar",numero_1,"con",numero_2,"es:",suma)
+    print("\n El resultado de restar",numero_1,"con",numero_2,"es:",resta)
+    print("\n El resultado de dividir",numero_1,"con",numero_2,"es:",dividir)
+    print("\n El resultado de multiplicar",numero_1,"con",numero_2,"es:",muliplicar)
+
 
 def ej2():
     # Ejercicios de práctica numérica
@@ -125,4 +133,3 @@ if __name__ == '__main__':
     #ej2()
     #ej3()
     #ej4()
-
