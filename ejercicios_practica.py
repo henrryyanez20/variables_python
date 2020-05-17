@@ -114,6 +114,24 @@ def ej3():
     Cualquier duda con el método split pueden consultarla por el campus
         
     '''
+    print('Ingrese NOMBRE COMPLETO de su PADRE:')
+    nombre_padre = str(input())
+
+    print('Ingrese NOMBRE COMPLETO de su MADRE:')
+    nombre_madre = str(input())
+
+    padre_split=nombre_padre.split(" ")
+    print(padre_split)
+
+    madre_split=nombre_madre.split(" ")
+    print(madre_split)
+
+    print('Ingrese NOMBRE del HIJO:')
+    nombre_hijo = str(input())
+
+    print("El nombre completo del hijo según sus padres es:\n","[*]",nombre_hijo,padre_split[1],madre_split[1])
+
+
 
 def ej4():
     # Ejercicios de práctica con cadenas
@@ -167,6 +185,6 @@ def ej5():
 if __name__ == '__main__':
     print("Ejercicios de práctica")
     #ej1()
-    ej2()
-    #ej3()
+    #ej2()
+    ej3()
     #ej4()
