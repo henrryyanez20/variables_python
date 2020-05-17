@@ -198,12 +198,21 @@ def ej5():
     Link de referencia:
     https://www.geeksforgeeks.org/isupper-islower-lower-upper-python-applications/
     Cualquier duda con estos métodos pueden consultarla por el campus
-    
     '''
+
+    print('Ingrese su NOMBRE COMPLETO: ')
+    persona = str(input())
+
+    print('Su nombre en minúscua es: ',persona.lower())
+    print('Su nombre en mayúscula es: ',persona.upper())
+    print('Su nombre en formato tipo oración es: ',persona.capitalize())
+
+
 
 if __name__ == '__main__':
     print("Ejercicios de práctica")
     #ej1()
     #ej2()
     #ej3()
-    ej4()
+    #ej4()
+    ej5()
