@@ -25,7 +25,7 @@ def ej1():
     numero_2 = int(input())
     
     # Alumno: Imprima en pantalla los dos números decimales solicitados
-    # print(....)
+    print(" [*] Primer valor ingresado :",numero_1,"\n","[*]Segundo valor ingresado :",numero_2)
 
     # Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
     # numero_1, numero_2
