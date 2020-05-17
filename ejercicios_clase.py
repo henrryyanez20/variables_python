@@ -82,7 +82,7 @@ def ej2():
     print("\n El resultado de multiplicar",numero_3,"con",numero_4,"es:",muliplicar2)
 
 
-def ej3():
+#def ej3():
     # Ejemplos variables de texto
 
     # Ingrese primero su nombre y luego su apellido
@@ -95,11 +95,15 @@ def ej3():
 
     # Imprima su nombre completo
 
+    nombre_completo = nombre+" "+apellido
+    print("[*] Tu nombre completo es:",nombre_completo)
+
     # Almacenar su nombre completo en una variable
     # nombre_completo = .....
 
     # Imprimir la cantidad de letras que posee su nombre completo
-
+    letras_cantidad=len(nombre_completo)
+    print("[*] El nombre que ingresaste está compuesto de",letras_cantidad,"caracteres")
 def ej3():
     # Ejemplos variables de texto
 
@@ -114,10 +118,11 @@ def ej3():
     print('Ingrese palabra 3:')
     palabra_3 = str(input())
 
-
     # De cada palabra debe tomar la primera letra y armar el acrónimo
     # Ejemplo: Alumbrado, barrido y limpieza --> ABL
     # Imprimir el resultado en pantalla
+
+    print("El acrónimo de las palabras("+palabra_1+","+palabra_2+","+palabra_3+") que introduciste es: "+"\n[*] Acrónimo: "+palabra_1[0]+palabra_2[0]+palabra_3[0])
 
 def ej4():
     # Ejemplos variables de texto
@@ -137,6 +142,6 @@ def ej4():
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
     #ej1()
-    ej2()
-    #ej3()
+    #ej2()
+    ej3()
     #ej4()
