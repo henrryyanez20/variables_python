@@ -139,6 +139,17 @@ def ej4():
     # Formar una nueva palabra con los recortes solicitados
     # Imprima en pantalla los resultados
 
+    primeras_pal_1 = palabra_1[:3]
+
+    ultimas_pal_2 = palabra_2[-3:]
+
+    print("[*] Las primeras 3 letras de la palabra",palabra_1,"es: ",primeras_pal_1)
+    print("[*] Las primeras 3 letras de la palabra",palabra_2,"es: ",ultimas_pal_2)
+
+    acronimo_compuesto = primeras_pal_1 + ultimas_pal_2
+
+    print("[*][*]La palabra compuesta según los acrónimos de palabras ingresadas es: ",acronimo_compuesto)
+
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
     #ej1()
