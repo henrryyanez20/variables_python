@@ -29,8 +29,29 @@ def ej1():
     - Para todos los casos se debe imprimir en pantalla el resultado aclarando
       la operación realizada en cada caso y con que números se ha realizado la operación
       ej: La suma entre 4.2 y 6.5 es 10.7
-
     '''
+    print('Ingrese el primer número decimal a operar:')
+    numero_1 = int(input())
+
+    print('Ingrese el segundo número decimal a operar:')
+    numero_2 = int(input())
+
+    # Suma
+    suma = numero_1 + numero_2
+    # Resta
+    resta = numero_1 - numero_2
+
+    # División
+    dividir = numero_1 / numero_2
+    # Multiplicación
+    muliplicar = numero_1 * numero_2
+
+    print("\n El resultado de sumar",numero_1,"con",numero_2,"es:",suma)
+    print("\n El resultado de restar",numero_1,"con",numero_2,"es:",resta)
+    print("\n El resultado de dividir",numero_1,"con",numero_2,"es:",dividir)
+    print("\n El resultado de multiplicar",numero_1,"con",numero_2,"es:",muliplicar)
+
+
 
 def ej2():
     # Ejercicios de práctica numérica y cadenas
@@ -41,15 +62,33 @@ def ej2():
     - El DNI de la persona
     - La edad de la persona
     - La altura de la persona
-
     Finalmente el programa debe imprimir dos líneas de texto por separado
     - En una línea imprimir el nombre completo y el DNI, aclarando de que campo se trata cada uno
             Ej: Nombre Completo: Nombre Apellido , DNI:35205070,
     - En la segunda línea se debe imprimir el nombre completo, edad y altura de la persona
       Nuevamente debe aclarar el campo de cada uno, para el que lo lea entienda de que se
       está hablando.
-
     '''
+
+    print('Ingrese su nombre:')
+    nombre = str(input())
+    print('Ingrese su apellido:')
+    apellido = str(input())
+
+    nom_completo = nombre+" "+apellido
+
+    print('Ingrese su numero DNI:')
+    dni = int(input())
+
+    print('Ingrese su edad actual:')
+    edad = int(input())
+
+    print('Ingrese su altura:')
+    altura = float(input())
+
+    print("[*] Nombre completo:",nom_completo,",","DNI: ",dni,"\n[*] Nombre completo:",nom_completo,",","Edad:",edad,"años,","Altura:",altura)
+
+
 def ej3():
     # Ejercicios de práctica con cadenas
 
@@ -57,7 +96,6 @@ def ej3():
     Realice un programa que determine cual sería el apellido de una persona
     si se ingresaran los dos nombres completos de sus padres.
     Dicha persona deberá tener los apellidos de ambos padres
-
     - Primero el programa debe consultar el nombre completo del padre_1
     - Luego el programa debe consultar el nombre completo del padre_2
     - Luego debe consultar el nombre del hijo/a
@@ -65,17 +103,14 @@ def ej3():
     - Luego formar el nombre completo del hijo/a utilizando los apellidos de sus padres
       y el nombre ingresado de dicha persona
     - Imprimir en pantalla el resultado
-
     NOTA: Para extraer el apellido del nombre completo recomendamos usar el método "split"
     Mostraremos un ejemplo:
     
     direccion_completa = 'Monroe 2716'
     calle, altura = direccion_completa.split(' ')
-
     Les dejo por su cuenta a que busquen un poco más acerca de este método que seguramente
     utilizarán mucho de acá en adelante. Les dejamos un link con algunos ejemplos más:
     https://www.pythonforbeginners.com/dictionary/python-split
-
     Cualquier duda con el método split pueden consultarla por el campus
         
     '''
@@ -95,17 +130,13 @@ def ej4():
       de la persona_1
     - En caso de contenerlo, son parientes
     - Imprimir en pantalla el resultado
-
     NOTA: Para extraer el apellido del nombre recomendamos usar el método "split"
     Mostraremos un ejemplo:
-
     direccion_completa = 'Monroe 2716'
     calle, altura = direccion_completa.split(' ')
-
     Les dejo por su cuenta a que busquen un poco más acerca de este método que seguramente
     utilizarán mucho de acá en adelante. Les dejamos un link con algunos ejemplos más:
     https://www.pythonforbeginners.com/dictionary/python-split
-
     Cualquier duda con el método split pueden consultarla por el campus
     
         
@@ -120,27 +151,22 @@ def ej5():
     - Todas las letras en minúsculas
     - Todas las letras en mayúsculas
     - Solo la primera letra del nombre en mayúscula
-
     NOTA: Para realizar este ejercicio deberá usar los siguientes métodos
     de strings:
     - lower
     - upper
     - capitalize
-
     Puede buscar en internet como usar en Python estos métodos.
     Les dejamos un el siguiente link que posee casos de uso de algunos de ellos:
-
     Link de referencia:
     https://www.geeksforgeeks.org/isupper-islower-lower-upper-python-applications/
-
     Cualquier duda con estos métodos pueden consultarla por el campus
     
-
     '''
 
 if __name__ == '__main__':
     print("Ejercicios de práctica")
-    ej1()
-    #ej2()
+    #ej1()
+    ej2()
     #ej3()
     #ej4()
